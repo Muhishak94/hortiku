@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1717982/public_html/
+    - export DEPLOYPATH=/home/u1717982/hortiku/
     - /bin/cp db.sqlite3 $DEPLOYPATH
     - /bin/cp manage.py $DEPLOYPATH
     - /bin/cp -R hortiku $DEPLOYPATH
