@@ -118,8 +118,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL='/media/'
 STATICFILES_DIRS=[BASE_DIR]
-STATIC_ROOT='/home/u1717982/public_html/static'
-MEDIA_ROOT='/home/u1717982/public_html/media'
+STATIC_ROOT='/home/u1717982/hortiku/static'
+MEDIA_ROOT='/home/u1717982/hortiku/media'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
