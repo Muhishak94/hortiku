@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bkm^a+b@!&$@1z+jy=c8lvsh@y^a191bybx+5s-@$2-2*5ds!d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hortiku.site','www.hortiku.site']
 
 
 # Application definition
@@ -116,7 +116,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
+MEDIA_URL='/media/'
+STATICFILES_DIRS=[BASE_DIR]
+STATIC_ROOT='/home/u1717982/public_html/static'
+MEDIA_ROOT='/home/u1717982/public_html/media'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
