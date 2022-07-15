@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bkm^a+b@!&$@1z+jy=c8lvsh@y^a191bybx+5s-@$2-2*5ds!d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hortiku.site','www.hortiku.site']
+ALLOWED_HOSTS = ['hortiku.site','www.hortiku.site','127.0.0.1']
 
 
 # Application definition
