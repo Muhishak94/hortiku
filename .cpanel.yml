@@ -6,3 +6,5 @@ deployment:
     - /bin/cp manage.py $DEPLOYPATH
     - /bin/cp -R hortiku $DEPLOYPATH
     - /bin/cp -R templates $DEPLOYPATH
+    - /bin/cp -R pangan $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
