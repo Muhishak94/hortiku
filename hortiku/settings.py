@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR,
-    "static",
+    "/home/u1717982/hortiku/static",
 ]
 # khusus untuk deploy nanti
 # MEDIA_URL='/media/'
