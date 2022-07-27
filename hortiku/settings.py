@@ -130,11 +130,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 STATIC_URL = '/static/'
-STATIC_ROOT= '/home/u1717982/hortiku/'
-STATICFILES_DIRS = [BASE_DIR/'static']
+STATIC_ROOT= '/home/u1717982/hortiku/static'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 # '/home/u1717982/hortiku/static'
 MEDIA_URL= '/media/'
-MEDIA_ROOT= BASE_DIR/'media/'
+MEDIA_ROOT= '/home/u1717982/hortiku/media'
 # '/home/u1717982/hortiku/media'
 # # Default primary key field type
 # # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
