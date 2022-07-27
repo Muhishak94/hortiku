@@ -116,15 +116,27 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = '/'
-STATICFILES_DIRS = [BASE_DIR/'static']
+# STATIC_URL = 'static/'
+# STATICFILES_DIRS = [
+#     BASE_DIR,
+#     "static",
+# ]
 # khusus untuk deploy nanti
-STATIC_ROOT= '/home/u1717982/hortiku/'
-# '/home/u1717982/hortiku/static'
-MEDIA_URL='/media/'
-MEDIA_ROOT= BASE_DIR/'media'
-# '/home/u1717982/hortiku/media'
+# MEDIA_URL='/media/'
+# STATICFILES_DIRS=[BASE_DIR]
+# STATIC_ROOT='/home/u1717982/hortiku/static'
+# MEDIA_ROOT='/home/u1717982/hortiku/media'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
+
+STATIC_URL = '/static/'
+STATIC_ROOT= '/home/u1717982/hortiku/'
+STATICFILES_DIRS = [BASE_DIR/'static']
+# '/home/u1717982/hortiku/static'
+MEDIA_URL= '/media/'
+MEDIA_ROOT= BASE_DIR/'media/'
+# '/home/u1717982/hortiku/media'
+# # Default primary key field type
+# # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
